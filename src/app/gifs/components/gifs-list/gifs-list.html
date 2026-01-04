@@ -1,6 +1,6 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-    @for (item of gifs(); track $index;let idx = $index) {
-    <gifs-list-item [imgUrl]="gifs.url"></gifs-list-item>
+    @for (gif of gifs(); track gif;) {
+    <gifs-list-item [imgUrl]="gif.url"></gifs-list-item>
     }
 
 </div>

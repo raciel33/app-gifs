@@ -5,7 +5,7 @@ export const environment = {
   companuSlogan: 'Maneja tus Gifs',
 
   apiKey: 'Kt3nZ54NHDOkQeu5igTTuucPxpGo8I8b',
-      giphyUrl: 'https://api.giphy.com/v1'
+  giphyUrl: 'https://api.giphy.com/v1'
 
 
 };
